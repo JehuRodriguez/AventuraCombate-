@@ -1,5 +1,4 @@
-﻿public class MeleeEnemy
-{
+﻿{
     private int vida;
     private int dano;
 
