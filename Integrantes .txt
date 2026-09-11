@@ -7,4 +7,8 @@ Tarea: Líder del proyecto, clase Juego, integración del proyecto, GitFlow y re
 
 2. Engel Nickolas Indo Salazar
 GitHub: Engel05k
-Tarea: Clase Jugador, Clase Enemigo Melee y Enemigo Rango
+Tarea: Clase Jugador, Clase Enemigo Melee 
+
+3. Andre Cardenas Prado
+GitHub: SrCoffe3
+Tarea: Clase Enemigo Rango
