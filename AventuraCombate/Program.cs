@@ -6,6 +6,10 @@ namespace AventuraCombate
     {
         static void Main(string[] args)
         {
+
+            Juego juego = new Juego();
+
+            juego.IniciarJuego();
         }
     }
 }
