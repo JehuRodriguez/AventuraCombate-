@@ -1,0 +1,10 @@
+INTEGRANTES DEL PROYECTO
+========================
+
+1. Jesus Rodriguez Echenique
+GitHub: JehuRodriguez
+Tarea: Líder del proyecto, clase Juego, integración del proyecto, GitFlow y revisión de Pull Requests.
+
+2. Engel Nickolas Indo Salazar
+GitHub: Engel05k
+Tarea: Clase Jugador, Clase Enemigo Melee y Enemigo Rango
