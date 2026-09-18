@@ -1,30 +1,13 @@
-﻿public class Player
+﻿using AventuraCombate;
+
+public class Player : Entity
 {
-    private int vida;
-    private int dano;
-
-    public Player(int vidaInicial, int danoInicial)
+    public Player(int vidaInicial, int danoInicial) : base(vidaInicial, danoInicial)
     {
-        this.vida = vidaInicial;
-        this.dano = danoInicial;
     }
 
-    public void RecibirDano(int cantidad)
-    {
-        vida -= cantidad;
-        if (vida < 0)
-        {
-            vida = 0;
-        }
-    }
-
-    public int ObtenerDano()
+    public override int ObtenerDano()
     {
         return dano;
-    }
-
-    public int ObtenerVida()
-    {
-        return vida;
     }
 }
