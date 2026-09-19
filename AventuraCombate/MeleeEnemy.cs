@@ -1,29 +1,13 @@
-﻿{
-    private int vida;
-    private int dano;
+﻿using AventuraCombate;
 
-    public MeleeEnemy(int vidaInicial, int danoInicial)
+public class MeleeEnemy : Entity
+{
+    public MeleeEnemy(int vidaInicial, int danoInicial) : base(vidaInicial, danoInicial)
     {
-        this.vida = vidaInicial;
-        this.dano = danoInicial;
     }
 
-    public void RecibirDano(int cantidad)
-    {
-        vida -= cantidad;
-        if (vida < 0)
-        {
-            vida = 0;
-        }
-    }
-
-    public int ObtenerDano()
+    public override int ObtenerDano()
     {
         return dano;
-    }
-
-    public bool EstaVivo()
-    {
-        return vida > 0;
     }
 }
